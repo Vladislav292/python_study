@@ -19,4 +19,5 @@ Setting up environmet and basic opperations.
 for loop, while loop, and if practice.
 # Estimation
 ### 9 Aug
-Self defined fuctions, list,downloaing Youtube vedios
+Self defined fuctions, list,downloaing Youtube vedios <br/>
+Prosponed due to typhoon
