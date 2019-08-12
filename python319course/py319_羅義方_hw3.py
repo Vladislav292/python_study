@@ -20,14 +20,16 @@ Apple Watch 的銷售均價為 499 美元，據此估算 Apple Watch 在 2015 �
 也就是說 Apple Watch 已經開始有庫存，對於一款上市 3 個月的新品而言，這不是一個好消息。'''
 controller = ' '
 i = 0
-a=[]
+b=[]
 while not controller == 'q':
     find_str = input('請輸入要找的字:')
     end = text.rfind(find_str)
     while i <= end:
-        a = a+[text.find(find_str,i)]
+        b = b+[text.find(find_str,i)]
         i +=1
-    a = set(a)
+    a = set(b)
+    a = list(a)
+    a.sort(key=b.index)
     print("'"+find_str+"'"+"所在的索引值為:")
     print(a)
     count = text.count(find_str)
@@ -36,4 +38,4 @@ while not controller == 'q':
     i = 0
     a = []
 else:
-    os.system('pause')
+    exit()
